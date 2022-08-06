@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="ir.iamnovinfar.hesabino.ui.Fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_addInvoicesFragment"
+            app:destination="@id/addInvoicesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_listInvoicesFragment"
+            app:destination="@id/listInvoicesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listInvoicesFragment"
+        android:name="ir.iamnovinfar.hesabino.ui.Fragment.ListInvoicesFragment"
+        android:label="fragment_list_invoices"
+        tools:layout="@layout/fragment_list_invoices" >
+        <action
+            android:id="@+id/action_listInvoicesFragment_to_detailInvoicesFragment"
+            app:destination="@id/detailInvoicesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailInvoicesFragment"
+        android:name="ir.iamnovinfar.hesabino.ui.Fragment.DetailInvoicesFragment"
+        android:label="fragment_detail_invoices"
+        tools:layout="@layout/fragment_detail_invoices" />
+    <fragment
+        android:id="@+id/addInvoicesFragment"
+        android:name="ir.iamnovinfar.hesabino.ui.Fragment.AddInvoicesFragment"
+        android:label="fragment_add_invoices"
+        tools:layout="@layout/fragment_add_invoices" />
+</navigation>
