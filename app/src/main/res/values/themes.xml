@@ -13,4 +13,14 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="TextLabel" parent="@android:style/TextAppearance">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textSize">12sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="android:textColor">@color/colorPrimary</item>
+
+    </style>
+
+
 </resources>
