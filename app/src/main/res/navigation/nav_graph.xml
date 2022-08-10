@@ -12,10 +12,14 @@
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/action_mainFragment_to_addInvoicesFragment"
-            app:destination="@id/addInvoicesFragment" />
+            app:destination="@id/addInvoicesFragment"
+            app:enterAnim="@anim/anim_enter"
+            app:exitAnim="@anim/anim_exit" />
         <action
             android:id="@+id/action_mainFragment_to_listInvoicesFragment"
-            app:destination="@id/listInvoicesFragment" />
+            app:destination="@id/listInvoicesFragment"
+            app:enterAnim="@anim/anim_enter"
+            app:exitAnim="@anim/anim_exit" />
     </fragment>
     <fragment
         android:id="@+id/listInvoicesFragment"

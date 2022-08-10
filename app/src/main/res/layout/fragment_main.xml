@@ -233,7 +233,7 @@
                             android:layout_height="match_parent">
 
                             <ImageView
-                                android:id="@+id/imageView44"
+                                android:id="@+id/img_add_invoices_more"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
@@ -387,7 +387,7 @@
                             android:layout_height="match_parent">
 
                             <ImageView
-                                android:id="@+id/imageView4"
+                                android:id="@+id/img_show_invoices_more"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
